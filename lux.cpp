@@ -21,7 +21,7 @@ int main()
 */
 
 //lux2
-/*char* alloc(char& rf)//passing char by refence
+/*char* alloc(char& rf)//passing char by reference
 {
     char x[256]="bubu";
     x[0] = rf;
@@ -88,6 +88,6 @@ class A
 int main()
 {
     A*p = new A[10];
-    delete[] p; // called defined constructor to delete the array
+    delete[] p; // called defined destructor to delete the array
     return 1;
 }*/
